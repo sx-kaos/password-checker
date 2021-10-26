@@ -1,2 +1,2 @@
 # password-checker
-a python script to check how good your password is
+a python script to show you the minimum time it would take to bruteforce your password
