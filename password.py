@@ -1,9 +1,11 @@
+import time
 import os 
 from os import system
 import datetime
 from datetime import datetime
 
 def main():
+    os.system('title password checker')
     os.system('cls')
     try:
         password = int(input('Enter length of password: '))
@@ -21,6 +23,8 @@ def main():
             elif x != length:
                 pass
     except ValueError:
+        print(f'please enter a number')
+        time.sleep(2)
         main()
 
 main()
